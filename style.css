@@ -1,0 +1,89 @@
+:root {
+  --destaque-1: #b1c85c;
+  --destaque-2: #715B56;
+  --fundo: #f1f1e6;
+}
+
+body {
+  font-family: 'Quicksand', Arial, sans-serif;
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--destaque-2);
+  background-color: var(--fundo);
+}
+
+h1 {
+  text-transform: uppercase;
+  color: var(--destaque-1);
+}
+
+.container {
+  width: 512px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.container-tempo {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 20px;
+  width: 150px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid var(--destaque-2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.botao-reiniciar {
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-size: 18.5px;
+  font-weight: 700;
+  color: var(--destaque-2);
+  padding: 8px;
+  background-color: transparent;
+  border: 3px solid var(--destaque-2);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.botao-reiniciar i {
+  margin-right: 5px;
+}
+
+.botao-reiniciar:hover {
+  color: var(--fundo);
+  background-color: var(--destaque-2);
+}
+
+.swal2-container .swal2-popup {
+  background-color: var(--fundo);
+}
+
+.swal2-container .swal2-title,
+.swal2-container .swal2-html-container {
+  color: var(--destaque-2);
+}
+
+.swal2-container .swal2-styled.swal2-confirm {
+  color: var(--fundo);
+  background-color: var(--destaque-2);
+}
+
+.swal2-container .swal2-styled.swal2-confirm:hover {
+  color: var(--destaque-2);
+  background-color: var(--fundo);
+}
+
+.swal2-container .swal2-styled.swal2-confirm:focus {
+  box-shadow: 0 0 0 3px var(--destaque-2);
+}
+

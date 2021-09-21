@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Cobrinha</title>
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <h1>Snake Game!</h1>
+    <canvas id="snake" width="512" height="512"></canvas>
+    <div class="container">
+      <button id="botao-reiniciar" class="botao-reiniciar" type="button" role="button">
+        <i class="fas fa-redo"></i>
+        Reiniciar Jogo!
+      </button>
+      <div class="container-tempo">
+        <i class="fas fa-stopwatch"></i>
+        <span class="tempo-decorrido">00:00:00</span>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+  </body>
+</html>

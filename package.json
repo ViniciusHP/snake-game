@@ -1,0 +1,14 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "keywords": [],
+  "author": "ViniciusHP",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
